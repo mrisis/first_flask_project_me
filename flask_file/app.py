@@ -1,5 +1,5 @@
 # start of falsk
-#1
+# 1
 from flask import Flask
 
 app = Flask(__name__)
@@ -23,7 +23,7 @@ def aboutme():
 
 # templates
 # create dirctory templates\
-#2
+# 2
 from flask import render_template
 
 
@@ -31,6 +31,18 @@ from flask import render_template
 def aboutreza():
     return render_template('about_reza.html', name="reza")
 
+
 @app.route('/mahdimirzaei')
 def mahdi_mirzaei():
     return render_template('about_mahdi.html')
+
+
+# _____________________________________________
+# 3
+# jinja
+# crate base.html
+
+
+@app.route('/aboutgroup')
+def about_g():
+    return render_template('about_group.html')
