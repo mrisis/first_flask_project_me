@@ -48,20 +48,29 @@ def about_g():
     return render_template('about_group.html')
 
 
-#_____________________________________________________
+# _____________________________________________________
 
-#4
+# 4
 
-#include in jinja
+# include in jinja
 
-#craete navbar
-#create home.html
+# craete navbar
+# create home.html
 
 @app.route("/home")
-
 def home():
     return render_template('home.html')
 
 
-#_____________________________________________________________
+# _____________________________________________________________
 
+# 5
+# development server
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+# write in terminal : python filename.py  --> python app.py
+
+
+#_____________________________________________________________________
