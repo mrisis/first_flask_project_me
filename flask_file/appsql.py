@@ -19,7 +19,13 @@ class User(db.Model):
         return f" User({self.id}-{self.first_name})"
 
 
-#create database
+@app.route('/home1')
+def showing_objects():
+    users = User.query.all()
+    return render_template('home1.html' , users = users)
+
+
+# create database
 """
  in terminal :
  from appsql import db
@@ -42,3 +48,9 @@ class User(db.Model):
  all of code in terminal 
  
 """
+
+# ______________________________________________________
+
+
+if __name__ == "__main__":
+    app.run(debug=True)

@@ -6,4 +6,10 @@
 {%block body%}
 <p>hello reza amin wellcome to my website</p>
 
+{%for user in users%}
+<h3>{{user.first_name}}</h3>
+<h3>{{user.last_name}}</h3>
+{%endfor%}
+
+
 {%endblock%}

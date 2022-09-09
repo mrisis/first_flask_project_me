@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} home1 page{%endblock%}
+
+
+{%block body%}
+<p>hello reza amin wellcome to my website</p>
+
+{%for user in users%}
+<div class="cart bg-dark text-light">
+    <h3>{{user.first_name}} : {{user.last_name}}</h3>
+</div>
+{% endfor %}
+
+
+{%endblock%}
