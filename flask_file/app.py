@@ -46,3 +46,22 @@ def mahdi_mirzaei():
 @app.route('/aboutgroup')
 def about_g():
     return render_template('about_group.html')
+
+
+#_____________________________________________________
+
+#4
+
+#include in jinja
+
+#craete navbar
+#create home.html
+
+@app.route("/home")
+
+def home():
+    return render_template('home.html')
+
+
+#_____________________________________________________________
+
