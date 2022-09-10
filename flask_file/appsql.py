@@ -22,12 +22,18 @@ class User(db.Model):
 @app.route('/home1')
 def showing_objects():
     users = User.query.all()
-    return render_template('home1.html' , users = users)
+    return render_template('home1.html', users=users)
+
+
+@app.route('/<user_id>')
+def detail(user_id):
+    user = User.query.get(user_id)
+    return render_template('detail.html', user=user)
 
 
 # create database
 """
- in terminal :
+.in terminal :
  from appsql import db
  db.create_all()
  #database is created
