@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baed6d0e-94fd-4f23-95dc-2e896307f3d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/todo_falsk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todo_falsk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_file/appsql.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_file/appsql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_file/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_file/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_file/templates/home1.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_file/templates/home1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_file/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_file/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_file/test.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_file/test.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
         <item itemvalue="JavaScript Debug.home1.html" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +94,9 @@
       <workItem from="1662720576569" duration="4817000" />
       <workItem from="1662726064900" duration="3935000" />
       <workItem from="1662730220011" duration="1195000" />
+      <workItem from="1662794517089" duration="972000" />
+      <workItem from="1662799479265" duration="247000" />
+      <workItem from="1662799761574" duration="348000" />
     </task>
     <servers />
   </component>

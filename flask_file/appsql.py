@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template , url_for , redirect
 from flask_sqlalchemy import SQLAlchemy
 
 # config
@@ -30,6 +30,13 @@ def detail(user_id):
     user = User.query.get(user_id)
     return render_template('detail.html', user=user)
 
+
+@app.route('/delete/<user_id>')
+def delete(user_id):
+    user = User.query.get(user_id)
+    db.session.delete(user)
+    db.session.commit()
+    return redirect(url_for('home1'))
 
 # create database
 """

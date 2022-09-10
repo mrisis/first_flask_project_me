@@ -2,7 +2,7 @@
 
 
 {%block body%}
-
+<a href="{{url_for('delete' , user_id = user.id)}}" class="btn btn-danger">delete</a>
 <h3>{{user.firstname}}</h3>
 <h3>{{user.last_name}}</h3>
 <h3>{{user.age}}</h3>
