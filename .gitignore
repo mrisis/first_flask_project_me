@@ -43,6 +43,7 @@ MANIFEST
 *.spec
 
 # Installer logs
+#reza###
 pip-log.txt
 pip-delete-this-directory.txt
 
